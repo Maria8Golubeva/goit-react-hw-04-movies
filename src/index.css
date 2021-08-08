@@ -1,13 +1,129 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #e7e4d0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,
+h2 {
+  margin: 15px 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 10px 15px;
+}
+
+a {
+  margin: 5px 0px;
+  text-decoration: none;
+  color: black;
+}
+
+.navigation {
+  border-radius: 10px;
+  background-color: #91c2e1;
+  color: #424b9e;
+  padding: 10px;
+}
+
+.navigation:hover {
+  background-color: #3b6483;
+  color: #94ede2;
+}
+
+.activeNavigation {
+  background-color: #3b6483;
+  color: #94ede2;
+}
+
+.movieList {
+  padding-top: 5px;
+}
+
+.searchForm {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin: 25px 0px 0px 0px;
+  padding: 0px;
+}
+
+.searchFormInput {
+  border-radius: 5px;
+  background-color: #e7e4d0;
+  height: 23px;
+  width: 250px;
+}
+
+.searchFormBtn {
+  padding: 5px;
+  border-radius: 5px;
+  border-color: #cfe0dd;
+  background-color: #cfe0dd;
+  color: #424b9e;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btnInfo {
+  border: transparent;
+  border-radius: 5px;
+  padding: 8px 10px;
+  background-color: #91c2e1;
+  color: #424b9e;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btnInfo:hover {
+  background-color: #3b6483;
+  color: #94ede2;
+}
+
+.filmInfo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.titleInfo {
+  display: block;
+  padding-left: 20px;
+}
+
+.buttonInfo {
+  display: flex;
+  padding: 0px;
+}
+
+.addInfo {
+  display: block;
+  width: 70px;
+  border-radius: 5px;
+  background-color: #91c2e1;
+  color: #424b9e;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.addInfo:hover {
+  background-color: #3b6483;
+  color: #94ede2;
+}
+
+.activeAddInfo {
+  background-color: #3b6483;
+  color: #94ede2;
 }
